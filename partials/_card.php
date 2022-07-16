@@ -1,6 +1,11 @@
  
  
-
+<style>
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+  }
+</style>
 
 <?php
 include 'partials/_dbconnect.php';
@@ -16,13 +21,12 @@ $sql = "SELECT * FROM `course`  ";
   
  
      
-        $row['name'];  
-       $row['desc']; 
+        
 
        echo " 
 
  
-       <div class='card m-3' style='width: 12rem; ' >
+       <div class='card m-3' style='width: 10rem; ' >
          <img src='img/".$row['name'].".png' class='card-img-top' alt='...' style='width: 100px; height:100px;'>
          <div class='card-body'>
            <h5 class='card-title'>".$row['name']."</h5>
