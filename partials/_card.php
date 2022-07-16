@@ -31,7 +31,7 @@ $sql = "SELECT * FROM `course`  ";
          <div class='card-body'>
            <h5 class='card-title'>".$row['name']."</h5>
            <p class='card-text'>".$row['fee']."</p>
-           <a href='#' class='btn btn-primary'>".$row['desc']."</a>
+           <a href='partials/_new.php' class='btn btn-primary'>".$row['desc']."</a>
          </div>
        </div>
         

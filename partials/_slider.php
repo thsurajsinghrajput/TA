@@ -16,15 +16,15 @@
           <!-- <div class="row justify-content-center"> -->
             <div class="col">
               <strong class="number">892</strong>
-              <span class="number-label">Posts</span>
+              <span class="number-label">roll no</span>
             </div>
             <div class="col">
               <strong class="number">22.5k</strong>
-              <span class="number-label">Followers</span>
+              <span class="number-label">fees pending</span>
             </div>
             <div class="col">
               <strong class="number">150</strong>
-              <span class="number-label">Following</span>
+              <span class="number-label">class</span>
             </div>
           <!-- </div> -->
         </div>
